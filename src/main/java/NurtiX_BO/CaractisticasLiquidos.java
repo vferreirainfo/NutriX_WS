@@ -16,7 +16,7 @@ public class CaractisticasLiquidos {
     double ph;
     double bicarbornato;
     
-    public CaracteristicasLiquidos(){
+    public CaractisticasLiquidos(){
         
     }
     
