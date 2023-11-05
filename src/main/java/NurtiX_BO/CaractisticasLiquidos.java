@@ -20,4 +20,14 @@ public class CaractisticasLiquidos {
         
     }
     
+    
+    public void DefinirResiduoSeco(double rSeco)
+    {
+        this.resSeco = rSeco;
+    }
+    public double ObterResiduoSeco()
+    {
+        return resSeco;
+    }
+    
 }
