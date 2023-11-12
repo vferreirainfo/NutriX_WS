@@ -14,14 +14,19 @@ public class CaractisticasLiquidos {
     double resSeco;
     int tolResSeco;
     double ph;
-    double bicarbornato;
+    double bicarbonato;
+    double calcio;
+    double cloreto;
+    double nitr; //nitrato
+    
+    
     
     public CaractisticasLiquidos(){
         
     }
     
     
-    public void DefinirResiduoSeco(double rSeco)
+    public void DefResiduoSeco(double rSeco)
     {
         this.resSeco = rSeco;
     }
@@ -30,4 +35,39 @@ public class CaractisticasLiquidos {
         return resSeco;
     }
     
+    public void DefToleranciaResiduoSeco(int tResSeco)
+    {
+        this.tolResSeco = tResSeco;
+    }
+    
+    public int ObtToleranciaResiduoSeco()
+    {
+        return tolResSeco;
+    }
+    
+    public void DefPH(double ph)
+    {
+        //ph=ph;
+        this.ph=ph;
+    }
+    public double ObtPH()
+    {
+        return ph;
+    }
+    
+    public void DefBiCarbonato(double bcarb)
+    {
+        bicarbonato = bcarb;
+    }
+    
+    
+    public void Defcalcio(double cal)
+    {
+        calcio = cal;
+    }
+    
+    public double ObtCalcio()
+    {
+        return calcio;
+    }
 }
