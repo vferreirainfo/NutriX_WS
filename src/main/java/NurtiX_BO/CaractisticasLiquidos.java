@@ -61,7 +61,7 @@ public class CaractisticasLiquidos {
     }
     
     
-    public void Defcalcio(double cal)
+    public void DefCalcio(double cal)
     {
         calcio = cal;
     }
@@ -70,4 +70,20 @@ public class CaractisticasLiquidos {
     {
         return calcio;
     }
+    
+    public void DefCloreto (double cl)
+    {
+        cloreto = cl;
+    }
+    
+   public double ObtCloreto()
+   {
+       return cloreto;
+   }
+   
+   public void DefNitrato(double nt)
+   {
+       nitr = nt;
+   }
+   
 }

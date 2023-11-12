@@ -10,4 +10,6 @@ package NurtiX_BO;
  */
 public class Agenda {
     
+    
+    //List<Consulta>
 }

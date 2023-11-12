@@ -14,10 +14,18 @@ public class Consulta {
     
     
     Date dataConsulta;
+    HPS histSocialPessoal;
+    DiarioAlimentar drAlim;
     
     
+    //
     public Consulta(){
         
+    }
+    
+    public void DefData(Date dt)
+    {
+        dataConsulta=dt;
     }
     
 }

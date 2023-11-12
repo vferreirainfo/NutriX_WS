@@ -9,5 +9,12 @@ package NurtiX_BO;
  * @author ioutlet
  */
 public class HPS {
-    
+ 
+    String funcaoIntestinal;
+    String qualidadeSono;
+    boolean fumador;
+    boolean bebeAlcool;
+    String actFisica;
+    String raca;
+    String obs; //observaoes
 }
