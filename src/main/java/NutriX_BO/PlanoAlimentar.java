@@ -28,7 +28,11 @@ public class PlanoAlimentar {
     //SET e GET
     public void DefRefeicao(List<Refeicao> lRef)
     {
-        
+        conjRefeicoes = lRef;
+    }
+    public List<Refeicao> ObtRefeicao()
+    {
+        return conjRefeicoes;
     }
     
     
