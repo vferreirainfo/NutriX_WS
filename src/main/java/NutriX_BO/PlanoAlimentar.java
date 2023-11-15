@@ -35,5 +35,10 @@ public class PlanoAlimentar {
         return conjRefeicoes;
     }
     
+    public void DefDataPlanoAlimentar(Date dtRefeicao)
+    {
+        dtRefeicao = dtRefeicao;
+    }
+    
     
 }
