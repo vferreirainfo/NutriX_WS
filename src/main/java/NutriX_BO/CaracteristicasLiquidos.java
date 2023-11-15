@@ -8,7 +8,7 @@ package NutriX_BO;
  *
  * @author ioutlet
  */
-public class CaractisticasLiquidos {
+public class CaracteristicasLiquidos {
     
     
     double resSeco;
@@ -21,7 +21,7 @@ public class CaractisticasLiquidos {
     
     
     
-    public CaractisticasLiquidos(){
+    public CaracteristicasLiquidos(){
         
     }
     

@@ -26,7 +26,48 @@ enum GeneroAlimento
 }
 public class Alimento {
     
-    Alimento formaConsumo; //A forma como é consumido
+    
+    String desc; // Arroz-Batata-Massa Esparguete
+    TipoAlimento formaConsumo; //A forma como é consumido
+    GeneroAlimento genAlimento;
     CaracteristicasAlimentares ca; // tabela nutricional
+    int quant; // quantidade
+  
+    
+    
+    //Construtor
+    public Alimento(){
+        
+    }
+    
+    public Alimento(TipoAlimento a, CaracteristicasAlimentares cAl)
+    {
+        formaConsumo = a;
+        ca = cAl;
+    }
+    
+    //GET e SET
+    public void DefTipoAlimento(TipoAlimento al)
+    {
+        formaConsumo = al;
+    }
+    
+    public TipoAlimento ObtTipoAlimento(){
+        return formaConsumo;
+    }
+    
+    public void DefGeneroAlimento(GeneroAlimento gAlim)
+    {
+        genAlimento = gAlim;
+    }
+    
+    public GeneroAlimento ObtGeneroAlimento(){
+        return genAlimento;
+    }
+    
+    
+    
+    
+         
 }
 

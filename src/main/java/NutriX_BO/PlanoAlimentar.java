@@ -37,7 +37,7 @@ public class PlanoAlimentar {
     
     public void DefDataPlanoAlimentar(Date dtRefeicao)
     {
-        dtRefeicao = dtRefeicao;
+        this.dtRefeicao = dtRefeicao;
     }
     
     

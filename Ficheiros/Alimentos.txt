@@ -1,0 +1,7 @@
+HPA , Agua ,  200ml ,  15-11-2023 07:15 
+PA ,  Cafe Expresso , 50ml, 15-11-2023 07:20
+PA ,  Pão de Mistura , 60g, 15-11-2023 07:20
+PA , Quijo Flamengo 50%G , 20g, 15-11-2023 07:20
+LM , Iogurte Liquido Magro , 156ml, 15-11-2023 10:00
+A , Sopa de Legumes , 300ml , 15-11-2023 13:00
+     
