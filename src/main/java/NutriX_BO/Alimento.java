@@ -28,8 +28,5 @@ public class Alimento {
     
     Alimento formaConsumo; //A forma como é consumido
     CaracteristicasAlimentares ca; // tabela nutricional
-    
-    
-    
-    
 }
+

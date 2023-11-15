@@ -3,7 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package NutriX_BO;
-
+import java.util.List;
 /**
  *
  * @author ioutlet
@@ -11,5 +11,9 @@ package NutriX_BO;
 public class Agenda {
     
     
-    //List<Consulta>
+    //Agenda do Nutricionista
+    
+    List<Consulta> cconsultas;
+    
+    
 }
