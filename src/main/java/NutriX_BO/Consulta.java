@@ -14,8 +14,9 @@ public class Consulta {
     
     
     Date dataConsulta;
-    HPS histSocialPessoal;
-    DiarioAlimentar drAlim;
+    HPS histSocialPessoa; //?? 
+    //Pensar se faz sentido ter este objeto aqui ou em anamnese
+    DiarioAlimentar drAlim; //??
     
     
     //
@@ -26,6 +27,26 @@ public class Consulta {
     public void DefData(Date dt)
     {
         dataConsulta=dt;
+    }
+    
+    public Date ObtData ()
+    {
+        return dataConsulta;
+    }
+    
+    public void DefHistoriaSocialPessoa(HPS hist)
+    {
+        histSocialPessoa = hist;
+    }
+   
+    public HPS ObtHistoriaSocialPessoa(){
+        
+        return histSocialPessoa;
+    }
+    
+    public void DefDiarioAlimentar(DiarioAlimentar diAlim)
+    {
+        drAlim = diAlim;
     }
     
 }

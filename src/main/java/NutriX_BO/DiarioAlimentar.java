@@ -28,6 +28,14 @@ public class DiarioAlimentar {
     {
         return r;
     }
+    public void DefDataRefeicao(Date dtRef)
+    {
+        dt = dtRef;
+    }
+    public Date ObtDataRefeicao()
+    {
+        return dt;
+    }
     
     
 }
